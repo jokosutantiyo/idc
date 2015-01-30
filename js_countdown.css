@@ -1,0 +1,159 @@
+body {
+    background-image:url(http://www.indocore.co.id/img/ss-countdown-main-bg.png);
+}
+
+.js-countdown-container {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:0;
+    margin:0;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    
+	overflow: hidden;
+	width:960px;
+	margin:0 auto;	
+}
+
+.js-countdown-container *{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.js-countdown-container h1 {
+    color:#FFF;
+    text-transform: uppercase;
+    font-size:30px;
+    text-align: center;
+    margin-top:100px;
+    font-weight: normal;
+}
+.js-countdown-container h4 {
+    color:#b6b6b6;
+    text-transform: uppercase;
+    font-size:18px;
+    text-align: center;
+    margin-top:30px;
+    font-weight: normal;
+}
+
+.js-countdown-container .js-clock-container {
+    overflow: hidden;
+    width: 100%;
+    margin:0 auto;
+    margin-top:50px;
+}
+/*hari*/
+.js-countdown-container .js-clock-days-container {
+    float:left;
+    margin-right:30px;
+}
+/*jam*/
+.js-countdown-container .js-clock-hours-container {
+    float:left;
+    margin-right:30px;
+}
+/*menit*/
+.js-countdown-container .js-clock-minutes-container {
+    float:left;
+    margin-right:30px;
+}
+/*detik (penting buat munculin)*/
+.js-countdown-container .js-clock-seconds-container {
+    float:left;
+}
+
+.js-countdown-container .js-bg-layer { 
+    background-image:url(http://www.indocore.co.id/img/ss-countdown-bg.png); 
+    background-repeat:no-repeat;
+    position:relative; 
+}
+
+.js-countdown-container .js-text { position:absolute; top:58px; left:55px; width:100px;  height:100px;}
+
+.js-countdown-container .js-value {
+    font-size:47px;
+    font-weight:bold;
+    color:#FFF;
+    text-align:center;
+    line-height:50px;
+    margin-top:15px;
+    width:100px;
+}
+/*menetapkan ukuran, letak, dan atribut jenis font pada area keterangan hari,jam,menit dan detik*/
+.js-countdown-container .js-days-text,
+.js-countdown-container .js-hours-text,
+.js-countdown-container .js-minutes-text,
+.js-countdown-container .js-seconds-text{
+	width:100px;
+    text-align:center;
+    font-size:13px;
+    line-height:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+/*menentukan warna pada :*/
+.js-countdown-container .js-days-text {color:#f9b401;} /*keterangan hari*/
+.js-countdown-container .js-hours-text {color:#23d0a2;} /*keterangan jam*/
+.js-countdown-container .js-minutes-text {color:#ff5153;} /*keterangan menit*/
+.js-countdown-container .js-seconds-text {color:#11c8ea;} /*keterangan detik*/
+
+.js-countdown-container .js-subscribe-container {
+	overflow: hidden;
+	width: 100%;	
+	margin-top:50px;
+	border-top: 1px solid #b6b6b6;
+}
+
+.js-countdown-container .js-subscribe-container p {	
+	font-size:14px; 
+	color:#b6b6b6; 
+	text-align:center;
+}
+
+.js-countdown-container .js-subscribe-container p.js-title{
+	text-transform: uppercase;
+	line-height: 50px;
+}
+
+.js-countdown-container .js-subscribe-container input.js-input {
+	display: inline-block;
+	padding: 5px 7px;
+	background-color: #dbd8d8;
+	color:#333;
+	text-decoration:none;
+	border: solid 1px #dbd8d8;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	margin: 0;
+	line-height: 18px;
+	width: 300px;
+}
+
+.js-countdown-container .js-subscribe-container a.js-btn {
+	display: inline-block;
+	padding: 5px 7px;
+	background-color: #39F;
+	color:#FFF;
+	text-decoration:none;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	margin: 0;
+	line-height: 18px;
+}
+
+.js-countdown-container .js-subscribe-container a:hover.js-btn {
+	color:#FFF;
+}
+
+.js-countdown-container .js-subscribe-container p.js-error-container{
+	display: none;
+	color: #FF0000;
+	line-height: 40px;
+}
