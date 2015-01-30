@@ -79,7 +79,7 @@
 	loadScript("https://code.jquery.com/jquery-1.11.2.js", function () {
 		loadScript("https://github.com/jokosutantiyo/idc/blob/master/js_ishop_idc_option.js", function () {
 			loadScript("https://github.com/jokosutantiyo/idc/blob/master/js_ishop_idc_countdown.js", function () {
-				loadCss("css/js_countdown.css", function() {
+				loadCss("https://github.com/jokosutantiyo/idc/blob/master/js_countdown.css", function() {
 					new JSCountdown(jsCountdownDefaultOptions);
 				});
 			});
