@@ -77,8 +77,8 @@
 		loadRemote(url, "css", callback);
 	};
 	loadScript("https://code.jquery.com/jquery-1.11.2.js", function () {
-		loadScript("js/js_ishop_idc_options.js", function () {
-			loadScript("js/js_ishop_idc_countdown.js", function () {
+		loadScript("https://github.com/jokosutantiyo/idc/blob/master/js_ishop_idc_option.js", function () {
+			loadScript("https://github.com/jokosutantiyo/idc/blob/master/js_ishop_idc_countdown.js", function () {
 				loadCss("css/js_countdown.css", function() {
 					new JSCountdown(jsCountdownDefaultOptions);
 				});
