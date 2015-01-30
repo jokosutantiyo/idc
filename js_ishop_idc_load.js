@@ -2,7 +2,7 @@
 	"use strict";
 	var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor),
 
-	loadCssHack = function(url, callback){
+	loadCss = function(url, callback){
 		var link = document.createElement('link');
 		link.type = 'text/css';
 		link.rel = 'stylesheet';
